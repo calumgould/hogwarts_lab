@@ -4,7 +4,7 @@ DROP TABLE IF EXISTS houses;
 
 CREATE TABLE houses (
   id SERIAL PRIMARY KEY,
-  name VARCHAR(255),
+  name VARCHAR(255)
 );
 
 CREATE TABLE students(

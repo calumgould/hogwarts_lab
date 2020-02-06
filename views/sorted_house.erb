@@ -1,0 +1,6 @@
+<h3>Your house is....</h3>
+
+<% house_names = @houses.map { |house| house.name} %>
+<h1><%= house_names.shuffle.first %></h1>
+
+<a href="/students/pre-sorted">Continue with your profile</a>

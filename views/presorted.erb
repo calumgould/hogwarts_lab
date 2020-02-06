@@ -5,12 +5,8 @@
   <label for="age">Age:</label>
     <input id="age" type="text" name="age">
     <br>
-  <label for="house">Choose a house:</label>
-    <select id="house" name="house_id">
-      <% for house in @houses %>
-      <option value= "<%= house.id %>"><%= house.name %></option>
-      <% end %>
-    </select>
+  <label for="house">Your house is:</label>
+    <p></p>
     <br>
   <input type="submit" value="Create Student">
 </form>
